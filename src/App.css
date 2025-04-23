@@ -32,3 +32,14 @@
 .navbar-links a:hover {
   color: #00bcd4;
 }
+
+.ProseMirror {
+  min-height: 200px;        /* grow editor body */
+  padding: 4px;
+  outline: none;            /* remove browser focus ring */
+  cursor: text;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}

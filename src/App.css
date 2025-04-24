@@ -46,7 +46,7 @@
 }
 
 .ProseMirror ul li {
-  margin: 0.25rem 0;       /* vertical spacing between items */
+  margin: 0.25rem 0;       
 }
 
 .ProseMirror ol {
@@ -63,3 +63,8 @@
   outline: none;
 }
 
+.ProseMirror span[data-ghost="true"] {
+  color: gray !important;
+  opacity: 0.6 !important;
+  font-style: italic;  /* You can add additional styles */
+}
